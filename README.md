@@ -245,7 +245,7 @@ Engineering limitations:
 - no repository-level shared dependency/environment contract;
 - no repository-level CI;
 - no uniform project quality rubric enforced in code;
-- secondary track READMEs currently lag the actual archive inventory.
+- ZIP-first packaging still limits repository-level source review.
 
 For stronger open-source review, future versions should expose notebooks/source as normal Git files and add per-project metadata plus a machine-readable catalog.
 
