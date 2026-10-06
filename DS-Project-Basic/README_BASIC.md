@@ -1,97 +1,82 @@
-# Basic Machine Learning Projects
+# AI-DS-100 — Basic Project Track
 
-This folder contains beginner-friendly machine learning projects.
+This folder is the **Basic** track of AI-DS-100.
 
-These projects are suitable for understanding the basic flow of a data science project, including data loading, cleaning, exploratory data analysis, visualization, model training, and evaluation.
-
-The projects in this section are considered **Basic / Easy Level** because they mostly use clean tabular datasets, have simple target variables, and can be explained easily in college projects, viva, or beginner portfolio work.
+The current `main` branch contains **29 independent ZIP project bundles** in this directory. This file is an inventory/learning guide; the project archives themselves are the authoritative committed artifacts.
 
 ---
 
-## Project List
+## Current Project Inventory
 
-| No. | Project Name | Project Type | Why This Is Basic |
-|---:|---|---|---|
-| 1 | Titanic Survival Prediction | Classification | This is a classic beginner machine learning project. The dataset is small, the problem is easy to understand, and the goal is to predict whether a passenger survived or not. |
-| 2 | Pima Indians Diabetes Prediction | Classification | This project uses medical features like glucose, insulin, BMI, and age to predict diabetes. The dataset is simple and mostly numerical. |
-| 3 | Medical Cost Prediction | Regression | This project predicts medical insurance charges using features such as age, BMI, smoking status, and region. It is a simple regression problem with clear feature relationships. |
-| 4 | Red Wine Quality Prediction | Classification / Regression | This project predicts wine quality based on chemical properties. The dataset is clean and useful for learning feature analysis and model evaluation. |
-| 5 | Salary Prediction | Regression / Classification | This project is easy to understand because it is based on salary-related features. It helps in learning how experience, skills, or other factors can affect salary. |
-| 6 | SFR Analysis | Data Analysis / Prediction | This is a simple analysis-based project with a smaller workflow. It is useful for understanding basic data exploration and interpretation. |
-| 7 | Sleep Disorder Prediction | Classification | This project uses lifestyle and health-related features to predict sleep disorder categories. The concept is simple and easy to explain. |
-| 8 | Delhi House Price Prediction | Regression | This project predicts house prices using real estate features. It is beginner-friendly because the target variable and features are easy to understand. |
+| # | Project |
+|---:|---|
+| 1 | Advertising Sales Prediction |
+| 2 | Air Quality Index Basic Prediction |
+| 3 | BMI Category Prediction |
+| 4 | Bank Note Authentication |
+| 5 | COVID-19 Basic Data Analysis |
+| 6 | Calories Burned Prediction |
+| 7 | Credit Card Customer Segmentation Basic |
+| 8 | Customer Purchase Prediction |
+| 9 | Delhi House Price Prediction |
+| 10 | Employee Attrition Basic Prediction |
+| 11 | Employee Salary Prediction |
+| 12 | Football Player Value Prediction |
+| 13 | Fruit Type Classification |
+| 14 | Grocery Sales Prediction |
+| 15 | IPL Match Winner Basic Prediction |
+| 16 | Iris Flower Classification |
+| 17 | Laptop Price Prediction |
+| 18 | Loan Amount Prediction |
+| 19 | Mall Customer Segmentation |
+| 20 | Medical Cost Prediction |
+| 21 | Mobile Price Range Classification |
+| 22 | Movie Rating Prediction |
+| 23 | Netflix Movies EDA |
+| 24 | Pima Indians Diabetes Prediction |
+| 25 | Red Wine Quality |
+| 26 | SFR Analysis |
+| 27 | Salary Prediction |
+| 28 | Sleep Disorder Prediction |
+| 29 | Titanic Survival Prediction |
 
 ---
 
-## Skills Covered
+## Learning Focus
 
-- Data loading using Python
-- Basic data cleaning
-- Handling missing values
-- Exploratory Data Analysis
-- Simple visualizations
-- Train-test split
-- Basic machine learning models
-- Model accuracy and error evaluation
-- Writing clear project reports
+This track is intended for foundational practice with:
 
----
+- data loading and inspection;
+- cleaning and missing-value handling;
+- exploratory data analysis;
+- basic visualization;
+- encoding/scaling where needed;
+- classification, regression, clustering, or analysis basics;
+- train/test evaluation;
+- clear observations and reporting.
 
-## Common Workflow Followed
-
-Most projects in this section follow this structure:
+A typical learning flow is:
 
 ```text
-1. Import required libraries
-2. Load the dataset
-3. Understand the dataset
-4. Clean the data
-5. Perform basic EDA
-6. Visualize important patterns
-7. Split the data into training and testing sets
-8. Train a machine learning model
-9. Evaluate the model
-10. Write final observations
+Dataset
+  ↓
+Inspect / clean
+  ↓
+EDA
+  ↓
+Prepare features
+  ↓
+Baseline model / analysis
+  ↓
+Evaluate
+  ↓
+Document observations
 ```
 
 ---
 
-## Who Should Use These Projects?
+## Important Boundary
 
-These projects are best for:
+Projects are committed primarily as ZIP archives. GitHub cannot normally diff/search the notebook/source inside every archive, so this track README does **not** claim that all 29 bundles share one environment, one internal structure, automated tests, or a common benchmark standard.
 
-- Beginners in machine learning
-- Students starting data science
-- College assignments
-- First GitHub portfolio projects
-- Learning basic classification and regression
-
----
-
-## Recommended Learning Order
-
-```text
-Titanic Survival Prediction
-↓
-Pima Indians Diabetes Prediction
-↓
-Medical Cost Prediction
-↓
-Red Wine Quality Prediction
-↓
-Salary Prediction
-↓
-Delhi House Price Prediction
-↓
-Sleep Disorder Prediction
-↓
-SFR Analysis
-```
-
----
-
-## Final Note
-
-These projects are not meant to be very complex.
-
-The main purpose of this section is to build a strong foundation in machine learning and understand how a complete project is structured from dataset to final prediction.
+Extract and inspect the selected archive before treating its notebook outputs or metrics as reproducible evidence.
