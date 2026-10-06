@@ -1,195 +1,256 @@
 <h1 align="center">AI-DS-100</h1>
 
 <p align="center">
-  <strong>Applied AI & Data Science Project Lab </strong><br>
-  A structured collection of notebook-based projects for machine learning, analytics, and portfolio practice.
-</p>
-
-<p align="center">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/AjaySoni-Dev/AI-DS-100?style=social">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/AjaySoni-Dev/AI-DS-100?style=social">
+  <strong>Applied AI & Data Science project lab organized as independent learning bundles.</strong><br>
+  The current repository contains 78 project ZIP archives across Basic, Intermediate, and Advanced tracks, spanning tabular ML, forecasting, recommendations, NLP, computer vision, fraud/risk, explainability, and deployment-oriented exercises.
 </p>
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-project%20lab-blue">
-  <img alt="Projects" src="https://img.shields.io/badge/current%20projects-26-purple">
-  <img alt="Levels" src="https://img.shields.io/badge/levels-basic%20%7C%20intermediate%20%7C%20advanced-success">
-  <img alt="Python" src="https://img.shields.io/badge/python-3.x-3776AB">
-  <img alt="Notebooks" src="https://img.shields.io/badge/notebooks-Jupyter-orange">
+  <img alt="Bundles" src="https://img.shields.io/badge/project%20bundles-78-purple">
+  <img alt="Basic" src="https://img.shields.io/badge/basic-29-success">
+  <img alt="Intermediate" src="https://img.shields.io/badge/intermediate-27-orange">
+  <img alt="Advanced" src="https://img.shields.io/badge/advanced-22-red">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
 </p>
 
 <p align="center">
   <a href="#overview">Overview</a> ·
-  <a href="#what-this-repo-contains">Contents</a> ·
-  <a href="#project-catalog">Projects</a> ·
-  <a href="#how-to-use">How to Use</a> ·
-  <a href="#learning-flow">Learning Flow</a>
+  <a href="#current-repository-inventory">Inventory</a> ·
+  <a href="#project-catalog">Catalog</a> ·
+  <a href="#learning-model">Learning Model</a> ·
+  <a href="#reproducibility-boundary">Boundaries</a>
 </p>
 
 ---
 
 ## Overview
 
-**AI-DS-100** is an applied AI and Data Science project repository. The uploaded version currently contains **26 implemented project bundles** arranged into three levels: **Basic**, **Intermediate**, and **Advanced**.
+**AI-DS-100** is a structured collection of independently packaged AI/Data Science learning projects.
 
-Each project is designed for practical learning and portfolio building. The bundles generally include a notebook, dataset, exported report/PDF, and a short project description.
+The current <code>main</code> branch contains **78 ZIP project bundles**:
 
-```text
-Dataset → Cleaning → EDA → Model training → Evaluation → Report/export
-```
+| Track | Current ZIP Bundles |
+|---|---:|
+| Basic | 29 |
+| Intermediate | 27 |
+| Advanced | 22 |
+| **Total** | **78** |
 
-The repository name points toward a larger 100-project collection, while the current implemented set contains 26 project bundles.
+The repository name describes a broader 100-project direction. It should not be interpreted as a claim that 100 project bundles are already committed.
+
+The previous root README count of 26 was stale.
 
 ---
 
-## What This Repo Contains
+## Current Repository Inventory
 
-| Repository Part | What it provides |
-|---|---|
-| `DS-Project-Basic/` | Beginner-friendly regression/classification projects with simple datasets and baseline ML workflows. |
-| `DS-Project-Intermediate/` | More complete prediction projects covering churn, health risk, booking, loan, and sensor-style datasets. |
-| `DS-Project-Advanced/` | Larger or more involved projects such as car pricing, crime analysis, crop yield, traffic flow, and fraud prediction. |
-| Project zip bundles | Each project is packaged separately so it can be downloaded, extracted, and studied independently. |
-| Level README files | Each difficulty folder contains its own short level-specific README. |
-| MIT License | Allows reuse and modification under the license terms. |
+~~~text
+AI-DS-100/
+├── DS-Project-Basic/
+│   ├── 29 project ZIP bundles
+│   └── README_BASIC.md
+├── DS-Project-Intermediate/
+│   ├── 27 project ZIP bundles
+│   └── README_INTERMEDIATE.md
+├── DS-Project-Advanced/
+│   ├── 22 project ZIP bundles
+│   └── README_ADVANCED.md
+├── README.md
+└── LICENSE
+~~~
+
+The level-specific README files were authored when fewer bundles existed and should not be used as the authoritative current bundle count unless updated alongside the archives.
 
 ---
 
 ## Project Catalog
 
-### Basic Projects
+### Basic — 29 Bundles
 
-| Project | Area | Dataset Focus |
-|---|---|---|
-| Delhi House Price Prediction | Regression | MagicBricks housing data |
-| Medical Cost Prediction | Regression | Insurance charges data |
-| Pima Indians Diabetes Prediction | Classification | Clinical diabetes data |
-| Red Wine Quality | Classification / Regression | Wine physicochemical data |
-| SFR Analysis | Analysis / Prediction | Launch SFR records |
-| Salary Prediction | Regression | Salary and profile data |
-| Sleep Disorder Prediction | Classification | Sleep and lifestyle data |
-| Titanic Survival Prediction | Classification | Titanic passenger data |
+| # | Project |
+|---:|---|
+| 1 | Advertising Sales Prediction |
+| 2 | Air Quality Index Basic Prediction |
+| 3 | BMI Category Prediction |
+| 4 | Bank Note Authentication |
+| 5 | COVID-19 Basic Data Analysis |
+| 6 | Calories Burned Prediction |
+| 7 | Credit Card Customer Segmentation Basic |
+| 8 | Customer Purchase Prediction |
+| 9 | Delhi House Price Prediction |
+| 10 | Employee Attrition Basic Prediction |
+| 11 | Employee Salary Prediction |
+| 12 | Football Player Value Prediction |
+| 13 | Fruit Type Classification |
+| 14 | Grocery Sales Prediction |
+| 15 | IPL Match Winner Basic Prediction |
+| 16 | Iris Flower Classification |
+| 17 | Laptop Price Prediction |
+| 18 | Loan Amount Prediction |
+| 19 | Mall Customer Segmentation |
+| 20 | Medical Cost Prediction |
+| 21 | Mobile Price Range Classification |
+| 22 | Movie Rating Prediction |
+| 23 | Netflix Movies EDA |
+| 24 | Pima Indians Diabetes Prediction |
+| 25 | Red Wine Quality |
+| 26 | SFR Analysis |
+| 27 | Salary Prediction |
+| 28 | Sleep Disorder Prediction |
+| 29 | Titanic Survival Prediction |
 
-### Intermediate Projects
+### Intermediate — 27 Bundles
 
-| Project | Area | Dataset Focus |
-|---|---|---|
-| Breast Cancer Prediction | Classification | Tumor feature data |
-| Cardiovascular Disease Prediction | Classification | Cardio/health indicator data |
-| Customer Churn Prediction | Classification | Bank/customer churn data |
-| Diamond Price Prediction | Regression | Diamond attributes data |
-| E-Commerce Product Delivery Prediction | Classification | Order delivery data |
-| Heart Stroke Prediction | Classification | Stroke health data |
-| Hotel Reservations Cancellation Prediction | Classification | Hotel booking data |
-| House Price Prediction | Regression | Home sales data |
-| Loan Approval Prediction | Classification | Applicant/credit data |
-| Osteoporosis Risk Prediction | Classification | Health risk data |
-| Room Occupancy Detection | Classification | Sensor readings |
-| Telecom Customer Churn Prediction | Classification | Telco customer data |
+| # | Project |
+|---:|---|
+| 1 | Bank Marketing Campaign Prediction |
+| 2 | Breast Cancer Prediction |
+| 3 | Cardiovascular Disease Prediction |
+| 4 | Credit Card Default Prediction |
+| 5 | Customer Churn Prediction |
+| 6 | Customer Lifetime Value Prediction |
+| 7 | Customer Segmentation with K-Means |
+| 8 | Diamond Price Prediction |
+| 9 | E-Commerce Product Delivery Prediction |
+| 10 | Energy Consumption Prediction |
+| 11 | Fake News Detection |
+| 12 | Flight Delay Prediction |
+| 13 | Flight Fare Prediction |
+| 14 | HR Employee Attrition Prediction |
+| 15 | Heart Stroke Prediction |
+| 16 | Hotel Reservations Cancellation Prediction |
+| 17 | House Price Prediction |
+| 18 | Insurance Claim Amount Prediction |
+| 19 | Loan Approval Prediction |
+| 20 | Market Basket Analysis |
+| 21 | Movie Recommendation System |
+| 22 | Osteoporosis Risk Prediction |
+| 23 | Product Recommendation System Basic |
+| 24 | Resume Screening System |
+| 25 | Retail Sales Forecasting |
+| 26 | Room Occupancy Detection |
+| 27 | Telecom Customer Churn Prediction |
 
-### Advanced Projects
+### Advanced — 22 Bundles
 
-| Project | Area | Dataset Focus |
-|---|---|---|
-| Belarus Car Price Prediction | Regression | Used car listings |
-| Calgary Crime Data Analysis and Neural Network Model | Analysis / Prediction | Crime statistics |
-| Crop Yield Prediction | Regression | Crop-yield spreadsheet |
-| Indian Used Car Price Prediction | Regression | Indian used-car listings |
-| Traffic-Flow-Prediction | Classification / Forecasting | Traffic count data |
-| Warranty Claims Fraud Prediction | Classification | Warranty claim data |
+| # | Project |
+|---:|---|
+| 1 | Belarus Car Price Prediction |
+| 2 | Brain Tumor Classification |
+| 3 | Calgary Crime Data Analysis and Neural Network Model |
+| 4 | Chatbot using NLP |
+| 5 | Credit Card Fraud Detection |
+| 6 | Crop Yield Prediction |
+| 7 | Cryptocurrency Price Forecasting |
+| 8 | Customer Churn Explainability with SHAP |
+| 9 | Demand Forecasting with Prophet XGBoost |
+| 10 | Disease Prediction Multi-Class System |
+| 11 | End-to-End ML Model Deployment Project |
+| 12 | Face Mask Detection |
+| 13 | Hybrid Movie Recommendation System |
+| 14 | Indian Used Car Price Prediction |
+| 15 | Insurance Fraud Detection |
+| 16 | Job Recommendation System |
+| 17 | Loan Risk Scoring System |
+| 18 | OCR Text Extraction System |
+| 19 | Object Detection on Custom Images |
+| 20 | Plant Disease Detection |
+| 21 | Traffic-Flow-Prediction |
+| 22 | Warranty Claims Fraud Prediction |
 
 ---
 
-## What Is Inside Each Project Bundle
+## Learning Model
 
-Most extracted project folders follow this practical structure:
+The repository is designed around repeated application of common data-science patterns:
 
-| File Type | Purpose |
-|---|---|
-| `.ipynb` | Main Jupyter notebook containing code, analysis, model training, and evaluation. |
-| `.csv` / `.xlsx` | Dataset used by the notebook. |
-| `.pdf` | Exported notebook/report for quick review. |
-| `description.md` | Short explanation of the problem, workflow, and learning value. |
+~~~text
+Problem / dataset
+   ↓
+Data loading
+   ↓
+Cleaning / preprocessing
+   ↓
+EDA / visualization
+   ↓
+Feature preparation
+   ↓
+Modeling
+   ↓
+Evaluation
+   ↓
+Notebook / report artifact
+~~~
 
-The projects mainly use familiar beginner-to-intermediate Python data science tools such as `pandas`, `numpy`, `matplotlib`, and `scikit-learn`.
-
----
-
-## Learning Flow
-
-Most notebooks follow a similar learning pattern:
-
-```text
-1. Import libraries
-2. Load the dataset
-3. Inspect rows, columns, missing values, and basic statistics
-4. Clean or encode the data
-5. Explore patterns with simple visualizations
-6. Split data into train/test sets
-7. Train a baseline model
-8. Evaluate with suitable metrics
-9. Summarize results in a report/export
-```
-
-This consistency makes the repository useful for beginners who want to repeat the same machine-learning workflow across different real-world domains.
-
----
-
-## Repository Structure
-
-```text
-AI-DS-100/
-├── DS-Project-Basic/
-│   ├── README_BASIC.md
-│   └── 8 project zip bundles
-├── DS-Project-Intermediate/
-│   ├── README_INTERMEDIATE.md
-│   └── 12 project zip bundles
-├── DS-Project-Advanced/
-│   ├── README_ADVANCED.md
-│   └── 6 project zip bundles
-├── LICENSE
-└── README.md
-```
+The growing catalog extends beyond basic classification/regression into recommendation systems, NLP, computer vision, fraud/risk, forecasting, explainability, and deployment-oriented exercises.
 
 ---
 
 ## How to Use
 
-1. Open the difficulty folder that matches your current level.
-2. Extract the project zip you want to study.
-3. Open the notebook in Jupyter Notebook, JupyterLab, VS Code, Google Colab, or Kaggle.
-4. Install common dependencies if required:
+Each project is stored as an independent ZIP archive.
 
-```bash
-pip install numpy pandas matplotlib scikit-learn jupyter openpyxl
-```
+A typical workflow is:
 
-5. Run the notebook from top to bottom.
-6. Compare your output with the included PDF/export.
-7. Modify the notebook by adding better EDA, extra metrics, different models, or improved documentation.
+1. choose a track;
+2. download/extract one project ZIP;
+3. inspect the files inside the extracted bundle;
+4. open its notebook/source/report;
+5. install the dependencies required by that specific project;
+6. reproduce the workflow before modifying or extending it.
 
----
-
-## Best Use Cases
-
-- Building a beginner-to-intermediate data science portfolio.
-- Practicing classification and regression workflows.
-- Learning how similar ML steps change across different datasets.
-- Preparing project explanations for resumes, GitHub, LinkedIn, or interviews.
-- Using existing notebooks as a base for improved versions with cleaner code and stronger evaluation.
+Because project dependencies vary, there is no single environment guaranteed to reproduce all 78 bundles.
 
 ---
 
-## Notes
+## Reproducibility Boundary
 
-- Some projects are intentionally simple and use baseline models instead of heavy production pipelines.
-- Datasets are stored inside individual project bundles, so extract a project before running it.
-- The current release contains 26 implemented projects; more projects can be added later while keeping the same three-level structure.
+The repository-level source has an important review limitation: **the projects are committed primarily as ZIP archives**.
+
+That means GitHub's normal code review/search cannot directly inspect notebook cells, datasets, environment metadata, or model outputs inside every bundle.
+
+Accordingly, this README makes only repository-level claims that are directly verifiable:
+
+- 78 ZIP project bundles are present;
+- their filenames and track locations are known;
+- three learning tracks exist;
+- MIT licensing exists at repository level.
+
+This root audit does **not** claim that every archive:
+
+- contains the same internal file structure;
+- runs in one shared environment;
+- has leakage-controlled evaluation;
+- has reproducible dependency locks;
+- passes automated tests;
+- contains a validated benchmark.
+
+---
+
+## Current Maturity
+
+AI-DS-100 is best described as a **content/product learning lab** rather than a conventional software-engineering repository.
+
+Strengths:
+
+- broad applied-ML domain coverage;
+- clear level-based organization;
+- many independent practice artifacts;
+- useful portfolio/learning breadth.
+
+Engineering limitations:
+
+- ZIP-only packaging hides source diffs;
+- no repository-level shared dependency/environment contract;
+- no repository-level CI;
+- no uniform project quality rubric enforced in code;
+- secondary track READMEs currently lag the actual archive inventory.
+
+For stronger open-source review, future versions should expose notebooks/source as normal Git files and add per-project metadata plus a machine-readable catalog.
 
 ---
 
 ## License
 
-Released under the MIT License.
+Released under the **MIT License**. See <code>LICENSE</code>.
