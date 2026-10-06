@@ -60,7 +60,7 @@ AI-DS-100/
 └── LICENSE
 ~~~
 
-The level-specific README files were authored when fewer bundles existed and should not be used as the authoritative current bundle count unless updated alongside the archives.
+The level-specific README files are synchronized with the current 29 / 27 / 22 archive inventory and provide track-specific learning guidance.
 
 ---
 
